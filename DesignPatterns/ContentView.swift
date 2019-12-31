@@ -93,6 +93,20 @@ struct ContentView: View {
                 }) {
                     Text("Chain of responsibility")
                 }
+                
+                Button(action: {
+                    let iterator = IteratorExecutor()
+                    iterator.execute()
+                }) {
+                    Text("Iterator")
+                }
+                
+                Button(action: {
+                    let command = CommandExecutor()
+                    command.execute()
+                }) {
+                    Text("Command")
+                }
             }
         }
     }
