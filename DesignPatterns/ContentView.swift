@@ -12,60 +12,70 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
             
-            Button(action: {
-                let singleton = SingletonExecutor()
-                singleton.execute()
-            }) {
-                Text("Singleton")
-            }
-            
-            Button(action: {
-                let observer = ObserverExecutor()
-                observer.execute()
-            }) {
-                Text("Observer")
-            }
-            
-            Button(action: {
-                let strategy = StrategyExecutor()
-                strategy.execute()
-            }) {
-                Text("Strategy")
-            }
-            
-            Button(action: {
-                let decorator = DecoratorExecutor()
-                decorator.execute()
-            }) {
-                Text("Decorator")
-            }
-            
-            Button(action: {
-                let adapter = AdapterExecutor()
-                adapter.execute()
-            }) {
-                Text("Adapter")
-            }
-            
-            Button(action: {
-                let facade = FacadeExecutor()
-                facade.execute()
-            }) {
-                Text("Facade")
-            }
-            
-            Button(action: {
-                let prototype = PrototypeExecutor()
-                prototype.execute()
-            }) {
-                Text("Prototype")
-            }
-            
-            Button(action: {
-                let template = TemplateMethodExecutor()
-                template.execute()
-            }) {
-                Text("Template")
+            Group {
+                
+                Button(action: {
+                    let singleton = SingletonExecutor()
+                    singleton.execute()
+                }) {
+                    Text("Singleton")
+                }
+                
+                Button(action: {
+                    let observer = ObserverExecutor()
+                    observer.execute()
+                }) {
+                    Text("Observer")
+                }
+                
+                Button(action: {
+                    let strategy = StrategyExecutor()
+                    strategy.execute()
+                }) {
+                    Text("Strategy")
+                }
+                
+                Button(action: {
+                    let decorator = DecoratorExecutor()
+                    decorator.execute()
+                }) {
+                    Text("Decorator")
+                }
+                
+                Button(action: {
+                    let adapter = AdapterExecutor()
+                    adapter.execute()
+                }) {
+                    Text("Adapter")
+                }
+                
+                Button(action: {
+                    let facade = FacadeExecutor()
+                    facade.execute()
+                }) {
+                    Text("Facade")
+                }
+                
+                Button(action: {
+                    let prototype = PrototypeExecutor()
+                    prototype.execute()
+                }) {
+                    Text("Prototype")
+                }
+                
+                Button(action: {
+                    let template = TemplateMethodExecutor()
+                    template.execute()
+                }) {
+                    Text("Template")
+                }
+                
+                Button(action: {
+                    let proxy = ProxyExecutor()
+                    proxy.execute()
+                }) {
+                    Text("Proxy")
+                }
             }
         }
     }
