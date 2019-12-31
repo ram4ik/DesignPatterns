@@ -76,6 +76,13 @@ struct ContentView: View {
                 }) {
                     Text("Proxy")
                 }
+                
+                Button(action: {
+                    let composite = CompositeExecutor()
+                    composite.execute()
+                }) {
+                    Text("Composite")
+                }
             }
         }
     }
