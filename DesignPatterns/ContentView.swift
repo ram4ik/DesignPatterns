@@ -107,6 +107,13 @@ struct ContentView: View {
                 }) {
                     Text("Command")
                 }
+                
+                Button(action: {
+                    let mediator = MediatorExecutor()
+                    mediator.execute()
+                }) {
+                    Text("Mediator")
+                }
             }
         }
     }

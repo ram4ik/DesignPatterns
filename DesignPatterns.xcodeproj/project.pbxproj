@@ -26,6 +26,7 @@
 		1D0A7C6823BBA400005C691D /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6723BBA400005C691D /* ChainOfResponsibility.swift */; };
 		1D0A7C6A23BBA534005C691D /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6923BBA534005C691D /* Iterator.swift */; };
 		1D0A7C6C23BBA5F0005C691D /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6B23BBA5F0005C691D /* Command.swift */; };
+		1D0A7C6E23BBA6BC005C691D /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6D23BBA6BC005C691D /* Mediator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		1D0A7C6723BBA400005C691D /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
 		1D0A7C6923BBA534005C691D /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
 		1D0A7C6B23BBA5F0005C691D /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		1D0A7C6D23BBA6BC005C691D /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				1D0A7C6723BBA400005C691D /* ChainOfResponsibility.swift */,
 				1D0A7C6923BBA534005C691D /* Iterator.swift */,
 				1D0A7C6B23BBA5F0005C691D /* Command.swift */,
+				1D0A7C6D23BBA6BC005C691D /* Mediator.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0A7C6E23BBA6BC005C691D /* Mediator.swift in Sources */,
 				1D0A7C5C23BB60C3005C691D /* Facade.swift in Sources */,
 				1D0A7C3D23BB1236005C691D /* AppDelegate.swift in Sources */,
 				1D0A7C5A23BB5719005C691D /* Adapter.swift in Sources */,
