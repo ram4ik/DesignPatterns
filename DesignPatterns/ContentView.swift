@@ -25,6 +25,13 @@ struct ContentView: View {
             }) {
                 Text("Observer")
             }
+            
+            Button(action: {
+                let strategy = StrategyExecutor()
+                strategy.execute()
+            }) {
+                Text("Strategy")
+            }
         }
     }
 }
