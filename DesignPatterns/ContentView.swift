@@ -60,6 +60,13 @@ struct ContentView: View {
             }) {
                 Text("Prototype")
             }
+            
+            Button(action: {
+                let template = TemplateMethodExecutor()
+                template.execute()
+            }) {
+                Text("Template")
+            }
         }
     }
 }
