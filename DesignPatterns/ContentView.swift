@@ -39,6 +39,13 @@ struct ContentView: View {
             }) {
                 Text("Decorator")
             }
+            
+            Button(action: {
+                let adapter = AdapterExecutor()
+                adapter.execute()
+            }) {
+                Text("Adapter")
+            }
         }
     }
 }

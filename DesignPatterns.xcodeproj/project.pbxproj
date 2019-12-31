@@ -17,6 +17,7 @@
 		1D0A7C5423BB29E3005C691D /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C5323BB29E3005C691D /* Observer.swift */; };
 		1D0A7C5623BB4130005C691D /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C5523BB4130005C691D /* Strategy.swift */; };
 		1D0A7C5823BB492D005C691D /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C5723BB492D005C691D /* Decorator.swift */; };
+		1D0A7C5A23BB5719005C691D /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C5923BB5719005C691D /* Adapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1D0A7C5323BB29E3005C691D /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		1D0A7C5523BB4130005C691D /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 		1D0A7C5723BB492D005C691D /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		1D0A7C5923BB5719005C691D /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				1D0A7C5323BB29E3005C691D /* Observer.swift */,
 				1D0A7C5523BB4130005C691D /* Strategy.swift */,
 				1D0A7C5723BB492D005C691D /* Decorator.swift */,
+				1D0A7C5923BB5719005C691D /* Adapter.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0A7C3D23BB1236005C691D /* AppDelegate.swift in Sources */,
+				1D0A7C5A23BB5719005C691D /* Adapter.swift in Sources */,
 				1D0A7C5423BB29E3005C691D /* Observer.swift in Sources */,
 				1D0A7C5623BB4130005C691D /* Strategy.swift in Sources */,
 				1D0A7C5223BB1266005C691D /* Singleton.swift in Sources */,
