@@ -10,12 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
+            
             Button(action: {
                 let singleton = SingletonExecutor()
                 singleton.execute()
             }) {
                 Text("Singleton")
+            }
+            
+            Button(action: {
+                let observer = ObserverExecutor()
+                observer.execute()
+            }) {
+                Text("Observer")
             }
         }
     }
