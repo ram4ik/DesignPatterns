@@ -53,6 +53,13 @@ struct ContentView: View {
             }) {
                 Text("Facade")
             }
+            
+            Button(action: {
+                let prototype = PrototypeExecutor()
+                prototype.execute()
+            }) {
+                Text("Prototype")
+            }
         }
     }
 }
