@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 15) {
             
             Group {
                 
@@ -127,6 +127,13 @@ struct ContentView: View {
                     flyweight.execute()
                 }) {
                     Text("Flyweight")
+                }
+                
+                Button(action: {
+                    let state = StateExecutor()
+                    state.execute()
+                }) {
+                    Text("State")
                 }
             }
         }
