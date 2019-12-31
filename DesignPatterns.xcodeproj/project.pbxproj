@@ -28,6 +28,7 @@
 		1D0A7C6C23BBA5F0005C691D /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6B23BBA5F0005C691D /* Command.swift */; };
 		1D0A7C6E23BBA6BC005C691D /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6D23BBA6BC005C691D /* Mediator.swift */; };
 		1D0A7C7023BBA803005C691D /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6F23BBA803005C691D /* Visitor.swift */; };
+		1D0A7C7223BBA8FC005C691D /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C7123BBA8FC005C691D /* Flyweight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		1D0A7C6B23BBA5F0005C691D /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		1D0A7C6D23BBA6BC005C691D /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 		1D0A7C6F23BBA803005C691D /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		1D0A7C7123BBA8FC005C691D /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				1D0A7C6B23BBA5F0005C691D /* Command.swift */,
 				1D0A7C6D23BBA6BC005C691D /* Mediator.swift */,
 				1D0A7C6F23BBA803005C691D /* Visitor.swift */,
+				1D0A7C7123BBA8FC005C691D /* Flyweight.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0A7C6E23BBA6BC005C691D /* Mediator.swift in Sources */,
+				1D0A7C7223BBA8FC005C691D /* Flyweight.swift in Sources */,
 				1D0A7C5C23BB60C3005C691D /* Facade.swift in Sources */,
 				1D0A7C3D23BB1236005C691D /* AppDelegate.swift in Sources */,
 				1D0A7C5A23BB5719005C691D /* Adapter.swift in Sources */,

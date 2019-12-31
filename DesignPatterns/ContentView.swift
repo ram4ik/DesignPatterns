@@ -121,6 +121,13 @@ struct ContentView: View {
                 }) {
                     Text("Visitor")
                 }
+                
+                Button(action: {
+                    let flyweight = FlyweightExecutor()
+                    flyweight.execute()
+                }) {
+                    Text("Flyweight")
+                }
             }
         }
     }
