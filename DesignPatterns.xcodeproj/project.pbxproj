@@ -30,6 +30,7 @@
 		1D0A7C7023BBA803005C691D /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6F23BBA803005C691D /* Visitor.swift */; };
 		1D0A7C7223BBA8FC005C691D /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C7123BBA8FC005C691D /* Flyweight.swift */; };
 		1D0A7C7423BBAB8F005C691D /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C7323BBAB8F005C691D /* State.swift */; };
+		1D0A7C7623BBB153005C691D /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C7523BBB153005C691D /* Memento.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		1D0A7C6F23BBA803005C691D /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 		1D0A7C7123BBA8FC005C691D /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
 		1D0A7C7323BBAB8F005C691D /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		1D0A7C7523BBB153005C691D /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				1D0A7C6F23BBA803005C691D /* Visitor.swift */,
 				1D0A7C7123BBA8FC005C691D /* Flyweight.swift */,
 				1D0A7C7323BBAB8F005C691D /* State.swift */,
+				1D0A7C7523BBB153005C691D /* Memento.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				1D0A7C6623BBA2E2005C691D /* Composite.swift in Sources */,
 				1D0A7C5223BB1266005C691D /* Singleton.swift in Sources */,
 				1D0A7C6023BB6738005C691D /* Prototype.swift in Sources */,
+				1D0A7C7623BBB153005C691D /* Memento.swift in Sources */,
 				1D0A7C3F23BB1236005C691D /* SceneDelegate.swift in Sources */,
 				1D0A7C4123BB1236005C691D /* ContentView.swift in Sources */,
 				1D0A7C5823BB492D005C691D /* Decorator.swift in Sources */,

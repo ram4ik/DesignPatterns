@@ -135,6 +135,13 @@ struct ContentView: View {
                 }) {
                     Text("State")
                 }
+                
+                Button(action: {
+                    let memento = MementoExecutor()
+                    memento.execute()
+                }) {
+                    Text("Memento")
+                }
             }
         }
     }
