@@ -84,6 +84,16 @@ struct ContentView: View {
                     Text("Composite")
                 }
             }
+            
+            Group {
+                
+                Button(action: {
+                    let chain = ChainOfResponsibilityExecutor()
+                    chain.execute()
+                }) {
+                    Text("Chain of responsibility")
+                }
+            }
         }
     }
 }

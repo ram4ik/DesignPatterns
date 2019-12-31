@@ -23,6 +23,7 @@
 		1D0A7C6223BB8C23005C691D /* TemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6123BB8C23005C691D /* TemplateMethod.swift */; };
 		1D0A7C6423BBA15C005C691D /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6323BBA15C005C691D /* Proxy.swift */; };
 		1D0A7C6623BBA2E2005C691D /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6523BBA2E2005C691D /* Composite.swift */; };
+		1D0A7C6823BBA400005C691D /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C6723BBA400005C691D /* ChainOfResponsibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		1D0A7C6123BB8C23005C691D /* TemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
 		1D0A7C6323BBA15C005C691D /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
 		1D0A7C6523BBA2E2005C691D /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		1D0A7C6723BBA400005C691D /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				1D0A7C6123BB8C23005C691D /* TemplateMethod.swift */,
 				1D0A7C6323BBA15C005C691D /* Proxy.swift */,
 				1D0A7C6523BBA2E2005C691D /* Composite.swift */,
+				1D0A7C6723BBA400005C691D /* ChainOfResponsibility.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				1D0A7C5423BB29E3005C691D /* Observer.swift in Sources */,
 				1D0A7C6423BBA15C005C691D /* Proxy.swift in Sources */,
 				1D0A7C5623BB4130005C691D /* Strategy.swift in Sources */,
+				1D0A7C6823BBA400005C691D /* ChainOfResponsibility.swift in Sources */,
 				1D0A7C6623BBA2E2005C691D /* Composite.swift in Sources */,
 				1D0A7C5223BB1266005C691D /* Singleton.swift in Sources */,
 				1D0A7C6023BB6738005C691D /* Prototype.swift in Sources */,
