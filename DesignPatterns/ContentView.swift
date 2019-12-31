@@ -32,6 +32,13 @@ struct ContentView: View {
             }) {
                 Text("Strategy")
             }
+            
+            Button(action: {
+                let decorator = DecoratorExecutor()
+                decorator.execute()
+            }) {
+                Text("Decorator")
+            }
         }
     }
 }
