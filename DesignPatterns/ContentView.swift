@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Button(action: {
+                let singleton = SingletonExecutor()
+                singleton.execute()
+            }) {
+                Text("Singleton")
+            }
+        }
     }
 }
 

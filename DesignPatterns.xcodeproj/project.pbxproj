@@ -13,6 +13,7 @@
 		1D0A7C4323BB123A005C691D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0A7C4223BB123A005C691D /* Assets.xcassets */; };
 		1D0A7C4623BB123A005C691D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0A7C4523BB123A005C691D /* Preview Assets.xcassets */; };
 		1D0A7C4923BB123A005C691D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0A7C4723BB123A005C691D /* LaunchScreen.storyboard */; };
+		1D0A7C5223BB1266005C691D /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A7C5123BB1266005C691D /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1D0A7C4523BB123A005C691D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D0A7C4823BB123A005C691D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0A7C4A23BB123A005C691D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0A7C5123BB1266005C691D /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1D0A7C3B23BB1236005C691D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				1D0A7C5023BB1247005C691D /* Patterns */,
 				1D0A7C3C23BB1236005C691D /* AppDelegate.swift */,
 				1D0A7C3E23BB1236005C691D /* SceneDelegate.swift */,
 				1D0A7C4023BB1236005C691D /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				1D0A7C4523BB123A005C691D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D0A7C5023BB1247005C691D /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A7C5123BB1266005C691D /* Singleton.swift */,
+			);
+			path = Patterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0A7C3D23BB1236005C691D /* AppDelegate.swift in Sources */,
+				1D0A7C5223BB1266005C691D /* Singleton.swift in Sources */,
 				1D0A7C3F23BB1236005C691D /* SceneDelegate.swift in Sources */,
 				1D0A7C4123BB1236005C691D /* ContentView.swift in Sources */,
 			);
