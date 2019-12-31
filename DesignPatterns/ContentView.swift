@@ -46,6 +46,13 @@ struct ContentView: View {
             }) {
                 Text("Adapter")
             }
+            
+            Button(action: {
+                let facade = FacadeExecutor()
+                facade.execute()
+            }) {
+                Text("Facade")
+            }
         }
     }
 }
