@@ -32,6 +32,13 @@ struct Playgrounds: View {
                 }) {
                     Text("Space Fleet")
                 }
+                
+                Button(action: {
+                    let paymentDemo = PaymentDemoExecutor()
+                    paymentDemo.execute()
+                }) {
+                    Text("Payment")
+                }
             }
         }
     }

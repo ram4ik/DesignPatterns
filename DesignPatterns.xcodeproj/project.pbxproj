@@ -42,6 +42,7 @@
 		95DBDEA123C37520003AB3C7 /* Broadcasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA023C37520003AB3C7 /* Broadcasting.swift */; };
 		95DBDEA323C3765B003AB3C7 /* RequestHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA223C3765B003AB3C7 /* RequestHandling.swift */; };
 		95DBDEA523C37796003AB3C7 /* SpaceFleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA423C37796003AB3C7 /* SpaceFleet.swift */; };
+		95DBDEA723C37940003AB3C7 /* PaymentDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA623C37940003AB3C7 /* PaymentDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		95DBDEA023C37520003AB3C7 /* Broadcasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broadcasting.swift; sourceTree = "<group>"; };
 		95DBDEA223C3765B003AB3C7 /* RequestHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandling.swift; sourceTree = "<group>"; };
 		95DBDEA423C37796003AB3C7 /* SpaceFleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceFleet.swift; sourceTree = "<group>"; };
+		95DBDEA623C37940003AB3C7 /* PaymentDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				95DBDEA023C37520003AB3C7 /* Broadcasting.swift */,
 				95DBDEA223C3765B003AB3C7 /* RequestHandling.swift */,
 				95DBDEA423C37796003AB3C7 /* SpaceFleet.swift */,
+				95DBDEA623C37940003AB3C7 /* PaymentDemo.swift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				1D0A7C5C23BB60C3005C691D /* Facade.swift in Sources */,
 				1D0A7C7423BBAB8F005C691D /* State.swift in Sources */,
 				1D0A7C3D23BB1236005C691D /* AppDelegate.swift in Sources */,
+				95DBDEA723C37940003AB3C7 /* PaymentDemo.swift in Sources */,
 				95DBDEA523C37796003AB3C7 /* SpaceFleet.swift in Sources */,
 				95DBDE9223C36C8A003AB3C7 /* DecoratorDemo.swift in Sources */,
 				95DBDE9D23C37274003AB3C7 /* Playgrounds.swift in Sources */,
