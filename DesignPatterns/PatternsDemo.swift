@@ -13,10 +13,17 @@ struct PatternsDemo: View {
         VStack(spacing: 15) {
             Group {
                 Button(action: {
-                    let decorator = DecoratorDemoExecutor()
-                    decorator.execute()
+                    let decoratorDemo = DecoratorDemoExecutor()
+                    decoratorDemo.execute()
                 }) {
-                    Text("Decorator")
+                    Text("DecoratorDemo")
+                }
+                
+                Button(action: {
+                    let proxyDemo = ProxyDemoExecutor()
+                    proxyDemo.execute()
+                }) {
+                    Text("ProxyDemo")
                 }
             }
         }

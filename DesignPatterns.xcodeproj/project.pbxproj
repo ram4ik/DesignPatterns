@@ -35,6 +35,7 @@
 		95DBDE9223C36C8A003AB3C7 /* DecoratorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9123C36C8A003AB3C7 /* DecoratorDemo.swift */; };
 		95DBDE9423C36D11003AB3C7 /* Patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9323C36D11003AB3C7 /* Patterns.swift */; };
 		95DBDE9623C36D22003AB3C7 /* PatternsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9523C36D22003AB3C7 /* PatternsDemo.swift */; };
+		95DBDE9823C36FE6003AB3C7 /* ProxyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9723C36FE6003AB3C7 /* ProxyDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		95DBDE9123C36C8A003AB3C7 /* DecoratorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorDemo.swift; sourceTree = "<group>"; };
 		95DBDE9323C36D11003AB3C7 /* Patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patterns.swift; sourceTree = "<group>"; };
 		95DBDE9523C36D22003AB3C7 /* PatternsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsDemo.swift; sourceTree = "<group>"; };
+		95DBDE9723C36FE6003AB3C7 /* ProxyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				95DBDE9123C36C8A003AB3C7 /* DecoratorDemo.swift */,
+				95DBDE9723C36FE6003AB3C7 /* ProxyDemo.swift */,
 			);
 			path = PatternsDemo;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				1D0A7C3F23BB1236005C691D /* SceneDelegate.swift in Sources */,
 				1D0A7C4123BB1236005C691D /* ContentView.swift in Sources */,
 				1D0A7C5823BB492D005C691D /* Decorator.swift in Sources */,
+				95DBDE9823C36FE6003AB3C7 /* ProxyDemo.swift in Sources */,
 				95DBDE8F23C36B4C003AB3C7 /* FactoryMethod.swift in Sources */,
 				1D0A7C7023BBA803005C691D /* Visitor.swift in Sources */,
 				1D0A7C6223BB8C23005C691D /* TemplateMethod.swift in Sources */,
