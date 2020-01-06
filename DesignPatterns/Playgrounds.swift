@@ -16,7 +16,14 @@ struct Playgrounds: View {
                     let coffeeMachine = CoffeeMachineExecutor()
                     coffeeMachine.execute()
                 }) {
-                    Text("CoffeeMachineExecutor")
+                    Text("CoffeeMachine")
+                }
+                
+                Button(action: {
+                    let requestHandling = RequestHandlingExecutor()
+                    requestHandling.execute()
+                }) {
+                    Text("RequestHandling")
                 }
             }
         }

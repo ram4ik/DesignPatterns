@@ -39,6 +39,8 @@
 		95DBDE9A23C370BA003AB3C7 /* IteratorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9923C370BA003AB3C7 /* IteratorDemo.swift */; };
 		95DBDE9D23C37274003AB3C7 /* Playgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9C23C37274003AB3C7 /* Playgrounds.swift */; };
 		95DBDE9F23C372ED003AB3C7 /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9E23C372ED003AB3C7 /* CoffeeMachine.swift */; };
+		95DBDEA123C37520003AB3C7 /* Broadcasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA023C37520003AB3C7 /* Broadcasting.swift */; };
+		95DBDEA323C3765B003AB3C7 /* RequestHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA223C3765B003AB3C7 /* RequestHandling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		95DBDE9923C370BA003AB3C7 /* IteratorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorDemo.swift; sourceTree = "<group>"; };
 		95DBDE9C23C37274003AB3C7 /* Playgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playgrounds.swift; sourceTree = "<group>"; };
 		95DBDE9E23C372ED003AB3C7 /* CoffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
+		95DBDEA023C37520003AB3C7 /* Broadcasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broadcasting.swift; sourceTree = "<group>"; };
+		95DBDEA223C3765B003AB3C7 /* RequestHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				95DBDE9E23C372ED003AB3C7 /* CoffeeMachine.swift */,
+				95DBDEA023C37520003AB3C7 /* Broadcasting.swift */,
+				95DBDEA223C3765B003AB3C7 /* RequestHandling.swift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -274,7 +280,9 @@
 				95DBDE9823C36FE6003AB3C7 /* ProxyDemo.swift in Sources */,
 				95DBDE8F23C36B4C003AB3C7 /* FactoryMethod.swift in Sources */,
 				1D0A7C7023BBA803005C691D /* Visitor.swift in Sources */,
+				95DBDEA123C37520003AB3C7 /* Broadcasting.swift in Sources */,
 				1D0A7C6223BB8C23005C691D /* TemplateMethod.swift in Sources */,
+				95DBDEA323C3765B003AB3C7 /* RequestHandling.swift in Sources */,
 				95DBDE9F23C372ED003AB3C7 /* CoffeeMachine.swift in Sources */,
 				95DBDE9623C36D22003AB3C7 /* PatternsDemo.swift in Sources */,
 			);
