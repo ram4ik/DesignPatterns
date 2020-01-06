@@ -36,6 +36,7 @@
 		95DBDE9423C36D11003AB3C7 /* Patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9323C36D11003AB3C7 /* Patterns.swift */; };
 		95DBDE9623C36D22003AB3C7 /* PatternsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9523C36D22003AB3C7 /* PatternsDemo.swift */; };
 		95DBDE9823C36FE6003AB3C7 /* ProxyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9723C36FE6003AB3C7 /* ProxyDemo.swift */; };
+		95DBDE9A23C370BA003AB3C7 /* IteratorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9923C370BA003AB3C7 /* IteratorDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		95DBDE9323C36D11003AB3C7 /* Patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patterns.swift; sourceTree = "<group>"; };
 		95DBDE9523C36D22003AB3C7 /* PatternsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsDemo.swift; sourceTree = "<group>"; };
 		95DBDE9723C36FE6003AB3C7 /* ProxyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyDemo.swift; sourceTree = "<group>"; };
+		95DBDE9923C370BA003AB3C7 /* IteratorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			children = (
 				95DBDE9123C36C8A003AB3C7 /* DecoratorDemo.swift */,
 				95DBDE9723C36FE6003AB3C7 /* ProxyDemo.swift */,
+				95DBDE9923C370BA003AB3C7 /* IteratorDemo.swift */,
 			);
 			path = PatternsDemo;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DBDE9A23C370BA003AB3C7 /* IteratorDemo.swift in Sources */,
 				1D0A7C6E23BBA6BC005C691D /* Mediator.swift in Sources */,
 				1D0A7C7223BBA8FC005C691D /* Flyweight.swift in Sources */,
 				95DBDE9423C36D11003AB3C7 /* Patterns.swift in Sources */,

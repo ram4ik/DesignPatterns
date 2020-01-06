@@ -25,6 +25,13 @@ struct PatternsDemo: View {
                 }) {
                     Text("ProxyDemo")
                 }
+                
+                Button(action: {
+                    let iteratorDemo = IteratorDemoExecutor()
+                    iteratorDemo.execute()
+                }) {
+                    Text("IteratorDemo")
+                }
             }
         }
     }
