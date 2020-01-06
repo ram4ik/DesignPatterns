@@ -16,14 +16,21 @@ struct Playgrounds: View {
                     let coffeeMachine = CoffeeMachineExecutor()
                     coffeeMachine.execute()
                 }) {
-                    Text("CoffeeMachine")
+                    Text("Coffee Machine")
                 }
                 
                 Button(action: {
                     let requestHandling = RequestHandlingExecutor()
                     requestHandling.execute()
                 }) {
-                    Text("RequestHandling")
+                    Text("Request Handling")
+                }
+                
+                Button(action: {
+                    let spaceFleet = SpaceFleetExecutor()
+                    spaceFleet.execute()
+                }) {
+                    Text("Space Fleet")
                 }
             }
         }
