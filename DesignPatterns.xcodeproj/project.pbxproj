@@ -37,6 +37,8 @@
 		95DBDE9623C36D22003AB3C7 /* PatternsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9523C36D22003AB3C7 /* PatternsDemo.swift */; };
 		95DBDE9823C36FE6003AB3C7 /* ProxyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9723C36FE6003AB3C7 /* ProxyDemo.swift */; };
 		95DBDE9A23C370BA003AB3C7 /* IteratorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9923C370BA003AB3C7 /* IteratorDemo.swift */; };
+		95DBDE9D23C37274003AB3C7 /* Playgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9C23C37274003AB3C7 /* Playgrounds.swift */; };
+		95DBDE9F23C372ED003AB3C7 /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDE9E23C372ED003AB3C7 /* CoffeeMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		95DBDE9523C36D22003AB3C7 /* PatternsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsDemo.swift; sourceTree = "<group>"; };
 		95DBDE9723C36FE6003AB3C7 /* ProxyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyDemo.swift; sourceTree = "<group>"; };
 		95DBDE9923C370BA003AB3C7 /* IteratorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorDemo.swift; sourceTree = "<group>"; };
+		95DBDE9C23C37274003AB3C7 /* Playgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playgrounds.swift; sourceTree = "<group>"; };
+		95DBDE9E23C372ED003AB3C7 /* CoffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		1D0A7C3B23BB1236005C691D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				95DBDE9B23C37254003AB3C7 /* Playgrounds */,
 				95DBDE9023C36C73003AB3C7 /* PatternsDemo */,
 				1D0A7C5023BB1247005C691D /* Patterns */,
 				1D0A7C3C23BB1236005C691D /* AppDelegate.swift */,
@@ -115,6 +120,7 @@
 				1D0A7C4423BB123A005C691D /* Preview Content */,
 				95DBDE9323C36D11003AB3C7 /* Patterns.swift */,
 				95DBDE9523C36D22003AB3C7 /* PatternsDemo.swift */,
+				95DBDE9C23C37274003AB3C7 /* Playgrounds.swift */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -161,6 +167,14 @@
 				95DBDE9923C370BA003AB3C7 /* IteratorDemo.swift */,
 			);
 			path = PatternsDemo;
+			sourceTree = "<group>";
+		};
+		95DBDE9B23C37254003AB3C7 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				95DBDE9E23C372ED003AB3C7 /* CoffeeMachine.swift */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +256,7 @@
 				1D0A7C7423BBAB8F005C691D /* State.swift in Sources */,
 				1D0A7C3D23BB1236005C691D /* AppDelegate.swift in Sources */,
 				95DBDE9223C36C8A003AB3C7 /* DecoratorDemo.swift in Sources */,
+				95DBDE9D23C37274003AB3C7 /* Playgrounds.swift in Sources */,
 				1D0A7C5A23BB5719005C691D /* Adapter.swift in Sources */,
 				1D0A7C6A23BBA534005C691D /* Iterator.swift in Sources */,
 				1D0A7C5423BB29E3005C691D /* Observer.swift in Sources */,
@@ -260,6 +275,7 @@
 				95DBDE8F23C36B4C003AB3C7 /* FactoryMethod.swift in Sources */,
 				1D0A7C7023BBA803005C691D /* Visitor.swift in Sources */,
 				1D0A7C6223BB8C23005C691D /* TemplateMethod.swift in Sources */,
+				95DBDE9F23C372ED003AB3C7 /* CoffeeMachine.swift in Sources */,
 				95DBDE9623C36D22003AB3C7 /* PatternsDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
