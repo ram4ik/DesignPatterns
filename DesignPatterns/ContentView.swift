@@ -142,6 +142,13 @@ struct ContentView: View {
                 }) {
                     Text("Memento")
                 }
+                
+                Button(action: {
+                    let factory = FactoryExecutor()
+                    factory.execute()
+                }) {
+                    Text("Factory")
+                }
             }
         }
     }
