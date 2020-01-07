@@ -52,6 +52,7 @@
 		95DBDEE723C49B27003AB3C7 /* IteratorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */; };
 		95DBDEE923C49D40003AB3C7 /* TemplateMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */; };
 		95DBDEEB23C49E69003AB3C7 /* FacadeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */; };
+		95DBDEED23C49FFD003AB3C7 /* AdapterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +103,7 @@
 		95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorExample.swift; sourceTree = "<group>"; };
 		95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodExample.swift; sourceTree = "<group>"; };
 		95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExample.swift; sourceTree = "<group>"; };
+		95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */,
 				95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */,
 				95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */,
+				95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				1D0A7C5C23BB60C3005C691D /* Facade.swift in Sources */,
 				1D0A7C7423BBAB8F005C691D /* State.swift in Sources */,
 				95DBDEE723C49B27003AB3C7 /* IteratorExample.swift in Sources */,
+				95DBDEED23C49FFD003AB3C7 /* AdapterExample.swift in Sources */,
 				1D0A7C3D23BB1236005C691D /* AppDelegate.swift in Sources */,
 				95DBDEA723C37940003AB3C7 /* PaymentDemo.swift in Sources */,
 				95DBDEA523C37796003AB3C7 /* SpaceFleet.swift in Sources */,

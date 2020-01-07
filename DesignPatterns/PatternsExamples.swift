@@ -67,6 +67,13 @@ struct PatternsExamples: View {
                 }) {
                     Text("Facade example")
                 }
+                
+                Button(action: {
+                    let adapterExample = AdapterExampleExecutor()
+                    adapterExample.execute()
+                }) {
+                    Text("Adapter example")
+                }
             }
         }
     }
