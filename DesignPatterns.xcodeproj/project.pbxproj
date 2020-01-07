@@ -58,6 +58,7 @@
 		95DBDEF323C4A494003AB3C7 /* FactoryMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */; };
 		95DBDEF523C4A59E003AB3C7 /* SimpleFactoryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */; };
 		95DBDEF723C4A890003AB3C7 /* DecoratorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF623C4A890003AB3C7 /* DecoratorExample.swift */; };
+		95DBDEF923C4A927003AB3C7 /* ObserverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF823C4A927003AB3C7 /* ObserverExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +115,7 @@
 		95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodExample.swift; sourceTree = "<group>"; };
 		95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryExample.swift; sourceTree = "<group>"; };
 		95DBDEF623C4A890003AB3C7 /* DecoratorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorExample.swift; sourceTree = "<group>"; };
+		95DBDEF823C4A927003AB3C7 /* ObserverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 				95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */,
 				95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */,
 				95DBDEF623C4A890003AB3C7 /* DecoratorExample.swift */,
+				95DBDEF823C4A927003AB3C7 /* ObserverExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				95DBDE9223C36C8A003AB3C7 /* DecoratorDemo.swift in Sources */,
 				95DBDE9D23C37274003AB3C7 /* Playgrounds.swift in Sources */,
 				1D0A7C5A23BB5719005C691D /* Adapter.swift in Sources */,
+				95DBDEF923C4A927003AB3C7 /* ObserverExample.swift in Sources */,
 				1D0A7C6A23BBA534005C691D /* Iterator.swift in Sources */,
 				1D0A7C5423BB29E3005C691D /* Observer.swift in Sources */,
 				95DBDEF723C4A890003AB3C7 /* DecoratorExample.swift in Sources */,

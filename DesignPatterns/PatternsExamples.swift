@@ -112,6 +112,13 @@ struct PatternsExamples: View {
                 }) {
                     Text("Decorator example")
                 }
+                
+                Button(action: {
+                    let observerExample = ObserverExampleExecutor()
+                    observerExample.execute()
+                }) {
+                    Text("Observer example")
+                }
             }
         }
     }
