@@ -41,10 +41,17 @@ struct PatternsExamples: View {
                 }
                 
                 Button(action: {
-                    let compositeExample = CompositeExample()
+                    let compositeExample = CompositeExampleExecutor()
                     compositeExample.execute()
                 }) {
                     Text("Composite example")
+                }
+                
+                Button(action: {
+                    let iteratorExample = IteratorExampleExecutor()
+                    iteratorExample.execute()
+                }) {
+                    Text("Iterator example")
                 }
             }
         }

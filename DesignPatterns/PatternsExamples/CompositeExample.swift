@@ -52,7 +52,7 @@ class LowLevelManager: Coworker {
     }
 }
 
-class CompositeExample {
+class CompositeExampleExecutor {
     func execute() {
         
         let topManager = Manager(lvl: 1)

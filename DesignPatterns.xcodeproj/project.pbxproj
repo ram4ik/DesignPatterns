@@ -49,6 +49,7 @@
 		95DBDEE123C4987A003AB3C7 /* ProxyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */; };
 		95DBDEE323C49914003AB3C7 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE223C49914003AB3C7 /* StateExample.swift */; };
 		95DBDEE523C49A1B003AB3C7 /* CompositeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */; };
+		95DBDEE723C49B27003AB3C7 /* IteratorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyExample.swift; sourceTree = "<group>"; };
 		95DBDEE223C49914003AB3C7 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
 		95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeExample.swift; sourceTree = "<group>"; };
+		95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 				95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */,
 				95DBDEE223C49914003AB3C7 /* StateExample.swift */,
 				95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */,
+				95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				95DBDE9423C36D11003AB3C7 /* Patterns.swift in Sources */,
 				1D0A7C5C23BB60C3005C691D /* Facade.swift in Sources */,
 				1D0A7C7423BBAB8F005C691D /* State.swift in Sources */,
+				95DBDEE723C49B27003AB3C7 /* IteratorExample.swift in Sources */,
 				1D0A7C3D23BB1236005C691D /* AppDelegate.swift in Sources */,
 				95DBDEA723C37940003AB3C7 /* PaymentDemo.swift in Sources */,
 				95DBDEA523C37796003AB3C7 /* SpaceFleet.swift in Sources */,
