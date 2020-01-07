@@ -92,7 +92,7 @@ class CommandExamleExecutor {
         let transactionManager = TransactionManager.shared
         transactionManager.addTransactions(command: Deposit(account: account, amount: 100))
         transactionManager.addTransactions(command: Withdraw(account: account, amount: 500))
-        transactionManager.pendingTransactions
+        print(transactionManager.pendingTransactions)
         print(account.balance)
         transactionManager.processingTransactions()
         print(account.balance)

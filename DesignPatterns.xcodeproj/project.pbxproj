@@ -54,6 +54,7 @@
 		95DBDEEB23C49E69003AB3C7 /* FacadeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */; };
 		95DBDEED23C49FFD003AB3C7 /* AdapterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */; };
 		95DBDEEF23C4A199003AB3C7 /* CommandExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */; };
+		95DBDEF123C4A375003AB3C7 /* AbstractFactoryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExample.swift; sourceTree = "<group>"; };
 		95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExample.swift; sourceTree = "<group>"; };
 		95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExample.swift; sourceTree = "<group>"; };
+		95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 				95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */,
 				95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */,
 				95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */,
+				95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				1D0A7C7623BBB153005C691D /* Memento.swift in Sources */,
 				1D0A7C3F23BB1236005C691D /* SceneDelegate.swift in Sources */,
 				1D0A7C4123BB1236005C691D /* ContentView.swift in Sources */,
+				95DBDEF123C4A375003AB3C7 /* AbstractFactoryExample.swift in Sources */,
 				1D0A7C5823BB492D005C691D /* Decorator.swift in Sources */,
 				95DBDE9823C36FE6003AB3C7 /* ProxyDemo.swift in Sources */,
 				95DBDE8F23C36B4C003AB3C7 /* FactoryMethod.swift in Sources */,
