@@ -119,6 +119,13 @@ struct PatternsExamples: View {
                 }) {
                     Text("Observer example")
                 }
+                
+                Button(action: {
+                    let strategyExample = StrategyExampleExecutor()
+                    strategyExample.execute()
+                }) {
+                    Text("Strategy example")
+                }
             }
         }
     }

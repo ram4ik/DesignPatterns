@@ -59,6 +59,7 @@
 		95DBDEF523C4A59E003AB3C7 /* SimpleFactoryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */; };
 		95DBDEF723C4A890003AB3C7 /* DecoratorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF623C4A890003AB3C7 /* DecoratorExample.swift */; };
 		95DBDEF923C4A927003AB3C7 /* ObserverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF823C4A927003AB3C7 /* ObserverExample.swift */; };
+		95DBDEFB23C4AA13003AB3C7 /* StrategyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEFA23C4AA13003AB3C7 /* StrategyExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +117,7 @@
 		95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryExample.swift; sourceTree = "<group>"; };
 		95DBDEF623C4A890003AB3C7 /* DecoratorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorExample.swift; sourceTree = "<group>"; };
 		95DBDEF823C4A927003AB3C7 /* ObserverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverExample.swift; sourceTree = "<group>"; };
+		95DBDEFA23C4AA13003AB3C7 /* StrategyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 				95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */,
 				95DBDEF623C4A890003AB3C7 /* DecoratorExample.swift */,
 				95DBDEF823C4A927003AB3C7 /* ObserverExample.swift */,
+				95DBDEFA23C4AA13003AB3C7 /* StrategyExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				1D0A7C5223BB1266005C691D /* Singleton.swift in Sources */,
 				1D0A7C6023BB6738005C691D /* Prototype.swift in Sources */,
 				95DBDEEB23C49E69003AB3C7 /* FacadeExample.swift in Sources */,
+				95DBDEFB23C4AA13003AB3C7 /* StrategyExample.swift in Sources */,
 				1D0A7C7623BBB153005C691D /* Memento.swift in Sources */,
 				1D0A7C3F23BB1236005C691D /* SceneDelegate.swift in Sources */,
 				1D0A7C4123BB1236005C691D /* ContentView.swift in Sources */,
