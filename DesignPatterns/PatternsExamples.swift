@@ -55,10 +55,17 @@ struct PatternsExamples: View {
                 }
                 
                 Button(action: {
-                    let templateMethidExample = TemplateMethodExample()
-                    templateMethidExample.execute()
+                    let templateMethodExample = TemplateMethodExample()
+                    templateMethodExample.execute()
                 }) {
                     Text("Template method example")
+                }
+                
+                Button(action: {
+                    let facadeExample = FacadeExampleExecutor()
+                    facadeExample.execute()
+                }) {
+                    Text("Facade example")
                 }
             }
         }

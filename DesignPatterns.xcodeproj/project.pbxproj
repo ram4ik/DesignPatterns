@@ -51,6 +51,7 @@
 		95DBDEE523C49A1B003AB3C7 /* CompositeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */; };
 		95DBDEE723C49B27003AB3C7 /* IteratorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */; };
 		95DBDEE923C49D40003AB3C7 /* TemplateMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */; };
+		95DBDEEB23C49E69003AB3C7 /* FacadeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeExample.swift; sourceTree = "<group>"; };
 		95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorExample.swift; sourceTree = "<group>"; };
 		95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodExample.swift; sourceTree = "<group>"; };
+		95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */,
 				95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */,
 				95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */,
+				95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				95DBDEDA23C48D32003AB3C7 /* PatternsExamples.swift in Sources */,
 				1D0A7C5223BB1266005C691D /* Singleton.swift in Sources */,
 				1D0A7C6023BB6738005C691D /* Prototype.swift in Sources */,
+				95DBDEEB23C49E69003AB3C7 /* FacadeExample.swift in Sources */,
 				1D0A7C7623BBB153005C691D /* Memento.swift in Sources */,
 				1D0A7C3F23BB1236005C691D /* SceneDelegate.swift in Sources */,
 				1D0A7C4123BB1236005C691D /* ContentView.swift in Sources */,
