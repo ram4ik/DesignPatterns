@@ -91,6 +91,13 @@ struct PatternsExamples: View {
                 }) {
                     Text("Abstract factory example")
                 }
+                
+                Button(action: {
+                    let factoryMethodExecutor = FactoryMethodExampleExecutor()
+                    factoryMethodExecutor.execute()
+                }) {
+                    Text("Factory method example")
+                }
             }
         }
     }

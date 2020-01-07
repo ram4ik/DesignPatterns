@@ -55,6 +55,7 @@
 		95DBDEED23C49FFD003AB3C7 /* AdapterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */; };
 		95DBDEEF23C4A199003AB3C7 /* CommandExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */; };
 		95DBDEF123C4A375003AB3C7 /* AbstractFactoryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */; };
+		95DBDEF323C4A494003AB3C7 /* FactoryMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExample.swift; sourceTree = "<group>"; };
 		95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExample.swift; sourceTree = "<group>"; };
 		95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryExample.swift; sourceTree = "<group>"; };
+		95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 				95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */,
 				95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */,
 				95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */,
+				95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				95DBDEE923C49D40003AB3C7 /* TemplateMethodExample.swift in Sources */,
 				95DBDEDF23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift in Sources */,
 				95DBDE9F23C372ED003AB3C7 /* CoffeeMachine.swift in Sources */,
+				95DBDEF323C4A494003AB3C7 /* FactoryMethodExample.swift in Sources */,
 				95DBDE9623C36D22003AB3C7 /* PatternsDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
