@@ -18,6 +18,13 @@ struct PatternsExamples: View {
                 }) {
                     Text("Builder example")
                 }
+                
+                Button(action: {
+                    let chainOfResponsibilityExample = ChainOfResponsibilityExampleExecutor()
+                    chainOfResponsibilityExample.execute()
+                }) {
+                    Text("Chain of responsibility example")
+                }
             }
         }
     }
