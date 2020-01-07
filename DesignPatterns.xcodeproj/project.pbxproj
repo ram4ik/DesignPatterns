@@ -53,6 +53,7 @@
 		95DBDEE923C49D40003AB3C7 /* TemplateMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */; };
 		95DBDEEB23C49E69003AB3C7 /* FacadeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */; };
 		95DBDEED23C49FFD003AB3C7 /* AdapterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */; };
+		95DBDEEF23C4A199003AB3C7 /* CommandExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +105,7 @@
 		95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodExample.swift; sourceTree = "<group>"; };
 		95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExample.swift; sourceTree = "<group>"; };
 		95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExample.swift; sourceTree = "<group>"; };
+		95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 				95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */,
 				95DBDEEA23C49E69003AB3C7 /* FacadeExample.swift */,
 				95DBDEEC23C49FFD003AB3C7 /* AdapterExample.swift */,
+				95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				1D0A7C5823BB492D005C691D /* Decorator.swift in Sources */,
 				95DBDE9823C36FE6003AB3C7 /* ProxyDemo.swift in Sources */,
 				95DBDE8F23C36B4C003AB3C7 /* FactoryMethod.swift in Sources */,
+				95DBDEEF23C4A199003AB3C7 /* CommandExample.swift in Sources */,
 				95DBDEDD23C48D61003AB3C7 /* BuilderExample.swift in Sources */,
 				1D0A7C7023BBA803005C691D /* Visitor.swift in Sources */,
 				95DBDEA123C37520003AB3C7 /* Broadcasting.swift in Sources */,

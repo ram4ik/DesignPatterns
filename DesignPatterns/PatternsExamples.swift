@@ -75,6 +75,16 @@ struct PatternsExamples: View {
                     Text("Adapter example")
                 }
             }
+            
+            Group {
+                
+                Button(action: {
+                    let commandExample = CommandExamleExecutor()
+                    commandExample.execute()
+                }) {
+                    Text("Command example")
+                }
+            }
         }
     }
 }
