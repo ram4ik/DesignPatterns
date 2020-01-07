@@ -50,6 +50,7 @@
 		95DBDEE323C49914003AB3C7 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE223C49914003AB3C7 /* StateExample.swift */; };
 		95DBDEE523C49A1B003AB3C7 /* CompositeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */; };
 		95DBDEE723C49B27003AB3C7 /* IteratorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */; };
+		95DBDEE923C49D40003AB3C7 /* TemplateMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		95DBDEE223C49914003AB3C7 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
 		95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeExample.swift; sourceTree = "<group>"; };
 		95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorExample.swift; sourceTree = "<group>"; };
+		95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 				95DBDEE223C49914003AB3C7 /* StateExample.swift */,
 				95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */,
 				95DBDEE623C49B27003AB3C7 /* IteratorExample.swift */,
+				95DBDEE823C49D40003AB3C7 /* TemplateMethodExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				95DBDEA123C37520003AB3C7 /* Broadcasting.swift in Sources */,
 				1D0A7C6223BB8C23005C691D /* TemplateMethod.swift in Sources */,
 				95DBDEA323C3765B003AB3C7 /* RequestHandling.swift in Sources */,
+				95DBDEE923C49D40003AB3C7 /* TemplateMethodExample.swift in Sources */,
 				95DBDEDF23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift in Sources */,
 				95DBDE9F23C372ED003AB3C7 /* CoffeeMachine.swift in Sources */,
 				95DBDE9623C36D22003AB3C7 /* PatternsDemo.swift in Sources */,

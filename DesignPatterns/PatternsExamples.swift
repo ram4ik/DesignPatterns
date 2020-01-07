@@ -53,6 +53,13 @@ struct PatternsExamples: View {
                 }) {
                     Text("Iterator example")
                 }
+                
+                Button(action: {
+                    let templateMethidExample = TemplateMethodExample()
+                    templateMethidExample.execute()
+                }) {
+                    Text("Template method example")
+                }
             }
         }
     }
