@@ -105,6 +105,13 @@ struct PatternsExamples: View {
                 }) {
                     Text("Simple factory example")
                 }
+                
+                Button(action: {
+                    let decoratorExample = DecoratorExampleExecutor()
+                    decoratorExample.execute()
+                }) {
+                    Text("Decorator example")
+                }
             }
         }
     }
