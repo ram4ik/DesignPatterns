@@ -43,6 +43,8 @@
 		95DBDEA323C3765B003AB3C7 /* RequestHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA223C3765B003AB3C7 /* RequestHandling.swift */; };
 		95DBDEA523C37796003AB3C7 /* SpaceFleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA423C37796003AB3C7 /* SpaceFleet.swift */; };
 		95DBDEA723C37940003AB3C7 /* PaymentDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEA623C37940003AB3C7 /* PaymentDemo.swift */; };
+		95DBDEDA23C48D32003AB3C7 /* PatternsExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDED923C48D32003AB3C7 /* PatternsExamples.swift */; };
+		95DBDEDD23C48D61003AB3C7 /* BuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEDC23C48D61003AB3C7 /* BuilderExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,8 @@
 		95DBDEA223C3765B003AB3C7 /* RequestHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandling.swift; sourceTree = "<group>"; };
 		95DBDEA423C37796003AB3C7 /* SpaceFleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceFleet.swift; sourceTree = "<group>"; };
 		95DBDEA623C37940003AB3C7 /* PaymentDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDemo.swift; sourceTree = "<group>"; };
+		95DBDED923C48D32003AB3C7 /* PatternsExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsExamples.swift; sourceTree = "<group>"; };
+		95DBDEDC23C48D61003AB3C7 /* BuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 		1D0A7C3B23BB1236005C691D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				95DBDEDB23C48D3A003AB3C7 /* PatternsExamples */,
 				95DBDE9B23C37254003AB3C7 /* Playgrounds */,
 				95DBDE9023C36C73003AB3C7 /* PatternsDemo */,
 				1D0A7C5023BB1247005C691D /* Patterns */,
@@ -129,6 +134,7 @@
 				95DBDE9323C36D11003AB3C7 /* Patterns.swift */,
 				95DBDE9523C36D22003AB3C7 /* PatternsDemo.swift */,
 				95DBDE9C23C37274003AB3C7 /* Playgrounds.swift */,
+				95DBDED923C48D32003AB3C7 /* PatternsExamples.swift */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -187,6 +193,14 @@
 				95DBDEA623C37940003AB3C7 /* PaymentDemo.swift */,
 			);
 			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		95DBDEDB23C48D3A003AB3C7 /* PatternsExamples */ = {
+			isa = PBXGroup;
+			children = (
+				95DBDEDC23C48D61003AB3C7 /* BuilderExample.swift */,
+			);
+			path = PatternsExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +293,7 @@
 				1D0A7C6C23BBA5F0005C691D /* Command.swift in Sources */,
 				1D0A7C6823BBA400005C691D /* ChainOfResponsibility.swift in Sources */,
 				1D0A7C6623BBA2E2005C691D /* Composite.swift in Sources */,
+				95DBDEDA23C48D32003AB3C7 /* PatternsExamples.swift in Sources */,
 				1D0A7C5223BB1266005C691D /* Singleton.swift in Sources */,
 				1D0A7C6023BB6738005C691D /* Prototype.swift in Sources */,
 				1D0A7C7623BBB153005C691D /* Memento.swift in Sources */,
@@ -287,6 +302,7 @@
 				1D0A7C5823BB492D005C691D /* Decorator.swift in Sources */,
 				95DBDE9823C36FE6003AB3C7 /* ProxyDemo.swift in Sources */,
 				95DBDE8F23C36B4C003AB3C7 /* FactoryMethod.swift in Sources */,
+				95DBDEDD23C48D61003AB3C7 /* BuilderExample.swift in Sources */,
 				1D0A7C7023BBA803005C691D /* Visitor.swift in Sources */,
 				95DBDEA123C37520003AB3C7 /* Broadcasting.swift in Sources */,
 				1D0A7C6223BB8C23005C691D /* TemplateMethod.swift in Sources */,
