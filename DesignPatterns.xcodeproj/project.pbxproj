@@ -46,6 +46,8 @@
 		95DBDEDA23C48D32003AB3C7 /* PatternsExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDED923C48D32003AB3C7 /* PatternsExamples.swift */; };
 		95DBDEDD23C48D61003AB3C7 /* BuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEDC23C48D61003AB3C7 /* BuilderExample.swift */; };
 		95DBDEDF23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEDE23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift */; };
+		95DBDEE123C4987A003AB3C7 /* ProxyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */; };
+		95DBDEE323C49914003AB3C7 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE223C49914003AB3C7 /* StateExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,8 @@
 		95DBDED923C48D32003AB3C7 /* PatternsExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsExamples.swift; sourceTree = "<group>"; };
 		95DBDEDC23C48D61003AB3C7 /* BuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderExample.swift; sourceTree = "<group>"; };
 		95DBDEDE23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityExample.swift; sourceTree = "<group>"; };
+		95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyExample.swift; sourceTree = "<group>"; };
+		95DBDEE223C49914003AB3C7 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +206,8 @@
 			children = (
 				95DBDEDC23C48D61003AB3C7 /* BuilderExample.swift */,
 				95DBDEDE23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift */,
+				95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */,
+				95DBDEE223C49914003AB3C7 /* StateExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -291,6 +297,8 @@
 				1D0A7C5A23BB5719005C691D /* Adapter.swift in Sources */,
 				1D0A7C6A23BBA534005C691D /* Iterator.swift in Sources */,
 				1D0A7C5423BB29E3005C691D /* Observer.swift in Sources */,
+				95DBDEE323C49914003AB3C7 /* StateExample.swift in Sources */,
+				95DBDEE123C4987A003AB3C7 /* ProxyExample.swift in Sources */,
 				1D0A7C6423BBA15C005C691D /* Proxy.swift in Sources */,
 				1D0A7C5623BB4130005C691D /* Strategy.swift in Sources */,
 				1D0A7C6C23BBA5F0005C691D /* Command.swift in Sources */,

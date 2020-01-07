@@ -25,6 +25,20 @@ struct PatternsExamples: View {
                 }) {
                     Text("Chain of responsibility example")
                 }
+                
+                Button(action: {
+                    let proxyExample = ProxyExampleExecutor()
+                    proxyExample.execute()
+                }) {
+                    Text("Proxy example")
+                }
+                
+                Button(action: {
+                    let stateExample = StateExampleExecutor()
+                    stateExample.execute()
+                }) {
+                    Text("State example")
+                }
             }
         }
     }
