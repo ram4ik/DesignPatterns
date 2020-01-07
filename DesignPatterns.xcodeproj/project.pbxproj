@@ -56,6 +56,7 @@
 		95DBDEEF23C4A199003AB3C7 /* CommandExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */; };
 		95DBDEF123C4A375003AB3C7 /* AbstractFactoryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */; };
 		95DBDEF323C4A494003AB3C7 /* FactoryMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */; };
+		95DBDEF523C4A59E003AB3C7 /* SimpleFactoryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +111,7 @@
 		95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExample.swift; sourceTree = "<group>"; };
 		95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryExample.swift; sourceTree = "<group>"; };
 		95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodExample.swift; sourceTree = "<group>"; };
+		95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 				95DBDEEE23C4A199003AB3C7 /* CommandExample.swift */,
 				95DBDEF023C4A375003AB3C7 /* AbstractFactoryExample.swift */,
 				95DBDEF223C4A494003AB3C7 /* FactoryMethodExample.swift */,
+				95DBDEF423C4A59E003AB3C7 /* SimpleFactoryExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				1D0A7C6423BBA15C005C691D /* Proxy.swift in Sources */,
 				1D0A7C5623BB4130005C691D /* Strategy.swift in Sources */,
 				1D0A7C6C23BBA5F0005C691D /* Command.swift in Sources */,
+				95DBDEF523C4A59E003AB3C7 /* SimpleFactoryExample.swift in Sources */,
 				95DBDEE523C49A1B003AB3C7 /* CompositeExample.swift in Sources */,
 				1D0A7C6823BBA400005C691D /* ChainOfResponsibility.swift in Sources */,
 				1D0A7C6623BBA2E2005C691D /* Composite.swift in Sources */,
