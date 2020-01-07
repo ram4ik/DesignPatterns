@@ -48,6 +48,7 @@
 		95DBDEDF23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEDE23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift */; };
 		95DBDEE123C4987A003AB3C7 /* ProxyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */; };
 		95DBDEE323C49914003AB3C7 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE223C49914003AB3C7 /* StateExample.swift */; };
+		95DBDEE523C49A1B003AB3C7 /* CompositeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		95DBDEDE23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityExample.swift; sourceTree = "<group>"; };
 		95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyExample.swift; sourceTree = "<group>"; };
 		95DBDEE223C49914003AB3C7 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
+		95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 				95DBDEDE23C48EC6003AB3C7 /* ChainOfResponsibilityExample.swift */,
 				95DBDEE023C4987A003AB3C7 /* ProxyExample.swift */,
 				95DBDEE223C49914003AB3C7 /* StateExample.swift */,
+				95DBDEE423C49A1B003AB3C7 /* CompositeExample.swift */,
 			);
 			path = PatternsExamples;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				1D0A7C6423BBA15C005C691D /* Proxy.swift in Sources */,
 				1D0A7C5623BB4130005C691D /* Strategy.swift in Sources */,
 				1D0A7C6C23BBA5F0005C691D /* Command.swift in Sources */,
+				95DBDEE523C49A1B003AB3C7 /* CompositeExample.swift in Sources */,
 				1D0A7C6823BBA400005C691D /* ChainOfResponsibility.swift in Sources */,
 				1D0A7C6623BBA2E2005C691D /* Composite.swift in Sources */,
 				95DBDEDA23C48D32003AB3C7 /* PatternsExamples.swift in Sources */,

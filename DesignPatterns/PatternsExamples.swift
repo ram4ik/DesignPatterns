@@ -39,6 +39,13 @@ struct PatternsExamples: View {
                 }) {
                     Text("State example")
                 }
+                
+                Button(action: {
+                    let compositeExample = CompositeExample()
+                    compositeExample.execute()
+                }) {
+                    Text("Composite example")
+                }
             }
         }
     }
