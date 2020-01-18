@@ -42,6 +42,7 @@ protocol VehicleFactory {
 
 class CarFactory: VehicleFactory {
     
+    @discardableResult
     func produce() -> Vehicle {
         print("car is created")
         return FactoryMethodCar()
@@ -49,7 +50,8 @@ class CarFactory: VehicleFactory {
 }
 
 class TruckFactory: VehicleFactory {
-    
+            
+    @discardableResult
     func produce() -> Vehicle {
         print("truck is created")
         return Truck()
@@ -58,6 +60,7 @@ class TruckFactory: VehicleFactory {
 
 class  BusFactory: VehicleFactory {
     
+    @discardableResult
     func produce() -> Vehicle {
         print("bus is created")
         return FactoryMethodBus()
@@ -68,13 +71,13 @@ class FactoryMethodExampleExecutor {
     func execute() {
         
         let carFacory = CarFactory()
-        let car = carFacory.produce()
+        _ = carFacory.produce()
 
         let truckFactory = TruckFactory()
-        let truck = truckFactory.produce()
+        _ = truckFactory.produce()
 
         let busFactory = BusFactory()
-        let bus = busFactory.produce()
+        _ = busFactory.produce()
     }
 }
 

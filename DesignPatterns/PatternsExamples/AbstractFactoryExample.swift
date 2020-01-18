@@ -54,12 +54,14 @@ protocol Factory {
 }
 
 class LittleSizeFactory: Factory {
-    
+        
+    @discardableResult
     func produceBus() -> Bus {
         print("Little bus is created")
         return LittleSizeBus()
     }
     
+    @discardableResult
     func produceCar() -> AbstractFactoryCar {
         print("Little size car is creates")
         return LittleSizeCar()
@@ -67,12 +69,14 @@ class LittleSizeFactory: Factory {
 }
 
 class MiddleSizeFactory: Factory {
-    
+        
+    @discardableResult
     func produceBus() -> Bus {
         print("Middle bus is created")
         return MiddleSizeBus()
     }
     
+    @discardableResult
     func produceCar() -> AbstractFactoryCar {
         print("Middle size car is creates")
         return MiddleSizeCar()

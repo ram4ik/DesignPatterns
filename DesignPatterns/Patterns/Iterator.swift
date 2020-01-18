@@ -28,6 +28,7 @@ final class DestinationList {
     }
 }
 
+
 final class DestinationIterator: Iterator {
     private var current = 0
     private let destinations: [Destination]
@@ -71,8 +72,8 @@ class IteratorExecutor {
             ]
         )
 
-        var iterator = DestinationIterator(destinationList: list)
-        var iterator2 = DestinationIterator2(destinationList: list)
+        let iterator = DestinationIterator(destinationList: list)
+        let iterator2 = DestinationIterator2(destinationList: list)
 
         while let element = iterator.next(), let element2 = iterator2.next() {
             print("First iterator:  \(element.name)")

@@ -18,6 +18,8 @@ final class Filter {
 }
 
 protocol FilterStrategy {
+    
+    @discardableResult
     func process(image: UIImage) -> UIImage
 }
 

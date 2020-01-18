@@ -38,6 +38,7 @@ class SupercarAdaptor: SupercarProtocol {
         self.simpleCar = simpleCar
     }
     
+    @discardableResult
     func makeNoise() -> String {
         return simpleCar.sound()
     }

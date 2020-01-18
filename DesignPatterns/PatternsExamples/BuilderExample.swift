@@ -53,7 +53,7 @@ class BuildeExampleExecutor {
         let builder = ThemeBuilder()
         builder.setText(color: .white)
         builder.setBackground(color: .black)
-        let theme = builder.createTheme()
+        _ = builder.createTheme()
     }
 }
 

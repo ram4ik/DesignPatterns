@@ -17,10 +17,12 @@ protocol Porsche {
 
 class Boxster: Porsche {
     
+    @discardableResult
     func getPrice() -> Double {
         return 120
     }
     
+    @discardableResult
     func getDescription() -> String {
         return "Porsche Boxster"
     }
@@ -80,15 +82,15 @@ class DecoratorExampleExecutor {
     func execute() {
         
         var porscheBoxster: Porsche = Boxster()
-        porscheBoxster.getDescription()
-        porscheBoxster.getPrice()
+        _ = porscheBoxster.getDescription()
+        _ = porscheBoxster.getPrice()
 
         porscheBoxster = PremiumAudioSystem(dp: porscheBoxster)
-        porscheBoxster.getDescription()
-        porscheBoxster.getPrice()
+        _ = porscheBoxster.getDescription()
+        _ = porscheBoxster.getPrice()
 
         porscheBoxster = PanoramicSunroof(dp: porscheBoxster)
-        porscheBoxster.getDescription()
-        porscheBoxster.getPrice()
+        _ = porscheBoxster.getDescription()
+        _ = porscheBoxster.getPrice()
     }
 }

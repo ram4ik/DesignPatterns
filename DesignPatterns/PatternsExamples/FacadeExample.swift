@@ -66,6 +66,6 @@ class Supermarket {
 class FacadeExampleExecutor {
     func execute() {
         let sm = Supermarket()
-        sm.buyProducts()
+        _ = sm.buyProducts()
     }
 }

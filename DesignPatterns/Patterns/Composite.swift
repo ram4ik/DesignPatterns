@@ -49,7 +49,7 @@ final class Composite: Component {
     }
     
     func remove(component: Component) {
-        if let index = components.index(where: { $0.id == component.id }) {
+        if let index = components.firstIndex(where: { $0.id == component.id }) {
             components.remove(at: index)
         }
     }
